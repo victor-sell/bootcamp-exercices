@@ -1,6 +1,8 @@
 import os
 import sys
 
+def wtf(a):
+    return 2*a
 
 def print_indent(depth: int) -> None:
     for _ in range(depth):
